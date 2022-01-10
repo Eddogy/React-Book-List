@@ -1,0 +1,20 @@
+/* Kaip atrodys gridas ar flex knygu sarasas */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+section#books-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2.2rem;
+}

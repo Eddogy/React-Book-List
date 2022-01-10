@@ -1,0 +1,31 @@
+/* Kaip atrodys vieno knyga */
+div.book {
+    background-color: rgb(255, 172, 64);
+    flex-basis: 40rem;
+    margin: 1.5rem;
+    position: relative;
+  }
+
+  img {
+      width: 100%;
+      object-fit: cover;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: white;
+    margin: 1rem;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+    color: white;
+    margin: 1.5rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    color: white;
+    margin: 1.5rem;
+  }
